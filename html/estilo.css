@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(78, 57, 28);
+
+    color:rgb(204, 197, 162);
+}
+.first {
+    border: 2px solid white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+.second {
+    border: 2px solid white;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
