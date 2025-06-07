@@ -13,4 +13,29 @@ body {
     border: 2px solid white;
     font-family: 'VT323', monospace;
     font-size: 20px;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 35%;
+}
+#third {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    
+}
+#fourth {
+    border: 2px solid white;
+    position: fixed;
+    top: 510px;
+    left: 45%;
+}
+#fiveth {
+    border: 2px solid white;
+    position: relative;
+    top: -20px;
+    left: 35%;
+    width:300;
+    height:300
 }

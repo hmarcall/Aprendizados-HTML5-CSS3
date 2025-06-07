@@ -1,0 +1,48 @@
+#a {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:0px;
+    left:0px
+}
+
+#b {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 100%;
+    transform: translate(-100%, -0%);
+}
+
+#c {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100%;
+    left: 0px;
+    transform: translate(-0%, -100%);
+}
+
+#d {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
+
+#e {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

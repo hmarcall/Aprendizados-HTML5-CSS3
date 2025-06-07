@@ -1,0 +1,123 @@
+body{
+    background-color: #130a05;
+}
+#capa{
+    background: linear-gradient(45deg, #b22222, #f5f5dc, #8b5e3c, #d2b48c);
+    width: 1500px;
+    height: 180px; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+    border-radius: 12px;
+    text-align: center;
+    line-height: 80px;
+    font-size:x-large;
+}
+#capa img{
+    border-radius: 15px;
+    position: absolute;
+    top:26px;
+    right: 88%;
+}
+#capa p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#barra{
+    background-color: #fcecdf;
+    border: 2px solid #f8f8f8;
+    color: #130a05;
+    width: 1500px;
+    height: 80px; 
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -27%);
+    border-radius: 12px;
+}
+#d {
+    position: absolute;
+    top: 27%;
+    left: 83%;
+    transform: translate(-83%, -27%);
+    font-size: large;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#b {
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    transform: translate(-60%, -27%);
+    font-size: large;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#c {
+    position: absolute;
+    top: 27%;
+    left: 36%;
+    transform: translate(-36%, -27%);
+    font-size: large;
+    
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#a {
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    transform: translate(-15%, -27%);
+    font-size: large;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#conteudo{
+    background-color: #fcecdf;
+    color: #f5f5dc;
+    width: 1000px;
+    height: 400px; 
+    position: absolute;
+    top: 68%;
+    left: 22%;
+    transform: translate(-22%, -68%);
+    border-radius: 12px;
+}
+
+#links{
+    background-color: #8b5e3ca4;
+    color: #f5f5dc;
+    width: 470px;
+    height: 400px; 
+    position: absolute;
+    top: 68%;
+    left: 86.5%;
+    transform: translate(-86.5%, -68%);
+    border-radius: 12px;
+}
+
+#rodape{
+    background-color: #fcecdf;
+    color: #f5f5dc;
+    width: 1500px;
+    height: 90px; 
+    position: absolute;
+    top: 95.5%;
+    left: 50%;
+    transform: translate(-50%,-95.5%);
+    border-radius: 12px; 
+}
+
+
