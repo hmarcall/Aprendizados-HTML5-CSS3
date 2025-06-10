@@ -1,8 +1,11 @@
+*{
+   font-family: "Montserrat", sans-serif;
+}
 body{
     background-color: #130a05;
 }
 #capa{
-    background: linear-gradient(45deg, #b22222, #f5f5dc, #8b5e3c, #d2b48c);
+    background: linear-gradient(90deg, #6f1d1bff, #bb9457ff, #ffe6a7ff, #99582aff, #432818ff);
     width: 1500px;
     height: 180px; 
     position: absolute;
@@ -27,8 +30,7 @@ body{
 }
 
 #barra{
-    background-color: #fcecdf;
-    border: 2px solid #f8f8f8;
+    background-color: rgb(252, 214, 164);
     color: #130a05;
     width: 1500px;
     height: 80px; 
@@ -85,32 +87,49 @@ body{
 }
 
 #conteudo{
-    background-color: #fcecdf;
-    color: #f5f5dc;
-    width: 1000px;
+    background-color: rgb(252, 214, 164);
+    width: 1160px;
     height: 400px; 
     position: absolute;
     top: 68%;
-    left: 22%;
-    transform: translate(-22%, -68%);
+    left: 27%;
+    transform: translate(-27%, -68%);
     border-radius: 12px;
+}
+
+#conteudo p{
+    padding-left: 35px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 1.8;
 }
 
 #links{
-    background-color: #8b5e3ca4;
+    background-color: #432818ff;
     color: #f5f5dc;
-    width: 470px;
+    font-size:large;
+    width: 310px;
     height: 400px; 
     position: absolute;
     top: 68%;
-    left: 86.5%;
-    transform: translate(-86.5%, -68%);
+    left: 88%;
+    transform: translate(-88%, -68%);
     border-radius: 12px;
 }
 
-#rodape{
-    background-color: #fcecdf;
+#links p {
     color: #f5f5dc;
+    font-size:x-large;
+    padding: 20px;
+}
+#links ul {
+    font-size:large;
+}
+
+
+#rodape{
+    background-color: rgba(252, 214, 164, 0.541);
     width: 1500px;
     height: 90px; 
     position: absolute;
@@ -120,4 +139,21 @@ body{
     border-radius: 12px; 
 }
 
+#rodape p {
+    color: #130a05; 
+    text-align: center;
+    padding: 10px;
+}
+
+#cor1 {
+    color: #f5f5dc;
+}
+
+#cor2 {
+    color: #f5f5dc;
+}
+
+#cor3 {
+    color: #f5f5dc;
+}
 
