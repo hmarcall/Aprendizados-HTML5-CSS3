@@ -6,6 +6,7 @@ body{
 }
 #capa{
     background: linear-gradient(90deg, #6f1d1bff, #bb9457ff, #ffe6a7ff, #99582aff, #432818ff);
+    color: #130a05;
     width: 1500px;
     height: 180px; 
     position: absolute;
@@ -23,6 +24,7 @@ body{
     right: 88%;
 }
 #capa p{
+    color: #130a05;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -88,12 +90,12 @@ body{
 
 #conteudo{
     background-color: rgb(252, 214, 164);
-    width: 1160px;
-    height: 400px; 
+    width: 1170px;
+    height: 530px; 
     position: absolute;
-    top: 68%;
-    left: 27%;
-    transform: translate(-27%, -68%);
+    top: 95%;
+    left: 26%;
+    transform: translate(-26%, -95%);
     border-radius: 12px;
 }
 
@@ -110,15 +112,16 @@ body{
     color: #f5f5dc;
     font-size:large;
     width: 310px;
-    height: 400px; 
+    height: 530px; 
     position: absolute;
-    top: 68%;
-    left: 88%;
-    transform: translate(-88%, -68%);
+    top: 95%;
+    left: 88.2%;
+    transform: translate(-88.2%, -95%);
     border-radius: 12px;
 }
 
 #links p {
+    font-weight: bold;
     color: #f5f5dc;
     font-size:x-large;
     padding: 20px;
@@ -133,9 +136,9 @@ body{
     width: 1500px;
     height: 90px; 
     position: absolute;
-    top: 95.5%;
+    top: 112%;
     left: 50%;
-    transform: translate(-50%,-95.5%);
+    transform: translate(-50%,-112%);
     border-radius: 12px; 
 }
 
