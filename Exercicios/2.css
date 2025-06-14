@@ -7,8 +7,9 @@ body{
 #capa{
     background: linear-gradient(90deg, #6f1d1bff, #bb9457ff, #ffe6a7ff, #99582aff, #432818ff);
     color: #130a05;
+    text-shadow: 5px 4px 4px #130a0594;
     width: 1500px;
-    height: 180px; 
+    height: 190px; 
     position: absolute;
     left: 50%;
     transform: translate(-50%); 
@@ -16,6 +17,7 @@ body{
     text-align: center;
     line-height: 80px;
     font-size:x-large;
+    letter-spacing: 15px;
 }
 #capa img{
     border-radius: 15px;
@@ -35,12 +37,13 @@ body{
     background-color: rgb(252, 214, 164);
     color: #130a05;
     width: 1500px;
-    height: 80px; 
+    height: 100px; 
     position: absolute;
     top: 27%;
     left: 50%;
     transform: translate(-50%, -27%);
     border-radius: 12px;
+    text-transform: uppercase;
 }
 #d {
     position: absolute;
@@ -48,21 +51,20 @@ body{
     left: 83%;
     transform: translate(-83%, -27%);
     font-size: large;
-    font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-weight: bold;
-    text-decoration: underline;
+    letter-spacing: 2px;
 }
+
 #b {
     position: absolute;
     top: 27%;
     left: 60%;
     transform: translate(-60%, -27%);
     font-size: large;
-    font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-weight: bold;
-    text-decoration: underline;
+    letter-spacing: 2px;
 }
 #c {
     position: absolute;
@@ -70,28 +72,50 @@ body{
     left: 36%;
     transform: translate(-36%, -27%);
     font-size: large;
-    
-    font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-weight: bold;
-    text-decoration: underline;
+    letter-spacing: 2px;
 }
+
 #a {
     position: absolute;
     top: 27%;
     left: 15%;
     transform: translate(-15%, -27%);
     font-size: large;
-    font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#d:hover{
     text-decoration: underline;
+    text-shadow: 2px 2px 3px #130a0579;
+    transition: 0.2s;
+}
+
+#b:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #130a0579;
+    transition: 0.2s;
+}
+
+#c:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #130a0579;
+    transition: 0.2s;
+}
+
+#a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #130a0579;
+    transition: 0.2s;
 }
 
 #conteudo{
     background-color: rgb(252, 214, 164);
     width: 1170px;
-    height: 530px; 
+    height: 560px; 
     position: absolute;
     top: 95%;
     left: 26%;
@@ -100,19 +124,29 @@ body{
 }
 
 #conteudo p{
-    padding-left: 35px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 70px;
     padding-top: 10px;
     font-size: 22px;
     line-height: 1.8;
 }
+
+#conteudo h2 {
+    padding-top: 25px;
+    padding-left: 70px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px #130a0579;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 
 #links{
     background-color: #432818ff;
     color: #f5f5dc;
     font-size:large;
     width: 310px;
-    height: 530px; 
+    height: 560px; 
     position: absolute;
     top: 95%;
     left: 88.2%;
@@ -123,11 +157,20 @@ body{
 #links p {
     font-weight: bold;
     color: #f5f5dc;
-    font-size:x-large;
+    font-size:28px;
     padding: 20px;
+    text-shadow: 3px 2px 4px #f5f5dc54;
+    letter-spacing: 2px;
+
 }
 #links ul {
     font-size:large;
+    font-style: italic;    
+}
+
+#links a:hover {
+    text-shadow: 6px 3px 14px #f5f5dc;
+    transition: 0.5s;
 }
 
 
