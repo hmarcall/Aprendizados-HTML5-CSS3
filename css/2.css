@@ -45,7 +45,7 @@ body{
     border-radius: 12px;
     text-transform: uppercase;
 }
-#d {
+#barrinha li a {
     position: absolute;
     top: 27%;
     left: 83%;
@@ -53,60 +53,9 @@ body{
     font-size: large;
     font-weight: 400;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 2px; 
 }
-
-#b {
-    position: absolute;
-    top: 27%;
-    left: 60%;
-    transform: translate(-60%, -27%);
-    font-size: large;
-    font-weight: 400;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-#c {
-    position: absolute;
-    top: 27%;
-    left: 36%;
-    transform: translate(-36%, -27%);
-    font-size: large;
-    font-weight: 400;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-#a {
-    position: absolute;
-    top: 27%;
-    left: 15%;
-    transform: translate(-15%, -27%);
-    font-size: large;
-    font-weight: 400;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-#d:hover{
-    text-decoration: underline;
-    text-shadow: 2px 2px 3px #130a0579;
-    transition: 0.2s;
-}
-
-#b:hover{
-    text-decoration: underline;
-    text-shadow: 2px 2px 3px #130a0579;
-    transition: 0.2s;
-}
-
-#c:hover{
-    text-decoration: underline;
-    text-shadow: 2px 2px 3px #130a0579;
-    transition: 0.2s;
-}
-
-#a:hover{
+#barrinha:hover {
     text-decoration: underline;
     text-shadow: 2px 2px 3px #130a0579;
     transition: 0.2s;
