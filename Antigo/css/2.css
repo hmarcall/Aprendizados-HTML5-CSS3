@@ -35,7 +35,6 @@ body{
 
 #barra{
     background-color: rgb(252, 214, 164);
-    color: #130a05;
     width: 1500px;
     height: 100px; 
     position: absolute;
@@ -45,17 +44,39 @@ body{
     border-radius: 12px;
     text-transform: uppercase;
 }
+
+#barrinha {
+    list-style: none;
+    display: flex;
+    gap: 22%;
+    padding: 1.8% 13%;
+}
+
 #barrinha li a {
-    position: absolute;
-    top: 27%;
-    left: 83%;
-    transform: translate(-83%, -27%);
+    color: #130a05;
     font-size: large;
     font-weight: 400;
     font-weight: bold;
     letter-spacing: 2px; 
 }
-#barrinha:hover {
+
+#inico {
+    color: #130a05;
+}
+
+#servicos {
+    color: #130a05;
+}
+
+#sobre {
+    color: #130a05;
+}
+
+#contato {
+    color: #130a05;
+}
+
+#barrinha li a:hover {
     text-decoration: underline;
     text-shadow: 2px 2px 3px #130a0579;
     transition: 0.2s;
@@ -101,6 +122,15 @@ body{
     left: 88.2%;
     transform: translate(-88.2%, -95%);
     border-radius: 12px;
+}   
+
+#links img{
+    position: absolute;
+    top: 95%;
+    left: 88.2%;
+    transform: translate(-88.2%, -95%);
+    
+
 }
 
 #links p {

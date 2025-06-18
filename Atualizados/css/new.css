@@ -1,0 +1,14 @@
+.conteiner{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+}
+.item{
+    background-color: rgba(29, 13, 6, 0.692);
+    padding: 20px;
+    margin: 20px;
+    color: antiquewhite;
+}
